@@ -1,10 +1,13 @@
 using System;
 using System.Collections;
+using Unity.Cinemachine;
 using UnityEngine;
 
 public class Player : Entity
 {
     public static event Action OnPlayerDeath;
+
+    private UI ui;
     public PlayerInputSet input { get; private set; }
 
     public Player_IdleState idleState { get; private set; }
@@ -16,7 +19,6 @@ public class Player : Entity
     public Player_DashState dashState { get; private set; }
     public Player_BasicAttackState basicAttackState { get; private set; }
     public Player_JumpAttackState jumpAttackState { get; private set; }
-
     public Player_DeadState deadState { get; private set; }
     public Player_CounterAttackState counterAttackState { get; private set; }
 
@@ -26,7 +28,6 @@ public class Player : Entity
     public float attackVelocityDuration = .1f;
     public float comboResetTime = 1;
     private Coroutine queuedAttackCo;
-
 
 
     [Header("Movement details")]
@@ -46,6 +47,7 @@ public class Player : Entity
     {
         base.Awake();
 
+        ui = FindAnyObjectByType<UI>();
         input = new PlayerInputSet();
 
 
@@ -85,7 +87,7 @@ public class Player : Entity
         wallJumpForce = wallJumpForce * speedMultiplier;
         jumpAttackVelocity = jumpAttackVelocity * speedMultiplier;
 
-        for(int i = 0; i < attackVelocity.Length; i++)
+        for (int i = 0; i < attackVelocity.Length; i++)
         {
             attackVelocity[i] = attackVelocity[i] * speedMultiplier;
         }
@@ -98,7 +100,7 @@ public class Player : Entity
         wallJumpForce = originalWallJump;
         jumpAttackVelocity = originalJumpAttack;
 
-        for(int i = 0;i < attackVelocity.Length; i++)
+        for (int i = 0; i < attackVelocity.Length; i++)
         {
             attackVelocity[i] = originalAttackVelocity[i];
         }
@@ -107,6 +109,7 @@ public class Player : Entity
     public override void EntityDeath()
     {
         base.EntityDeath();
+
         OnPlayerDeath?.Invoke();
         stateMachine.ChangeState(deadState);
     }
@@ -131,6 +134,8 @@ public class Player : Entity
 
         input.Player.Movement.performed += ctx => moveInput = ctx.ReadValue<Vector2>();
         input.Player.Movement.canceled += ctx => moveInput = Vector2.zero;
+
+        input.Player.ToggleSkillTreeUI.performed += ctx => ui.ToggleSkillTreeUI();
     }
 
     private void OnDisable()

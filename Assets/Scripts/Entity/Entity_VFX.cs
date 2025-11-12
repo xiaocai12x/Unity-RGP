@@ -1,18 +1,20 @@
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Entity_VFX : MonoBehaviour
 {
+
     private SpriteRenderer sr;
     private Entity entity;
 
-    [Header("On Tacking Damage VFX")]
+    [Header("On Taking Damage VFX")]
     [SerializeField] private Material onDamageMaterial;
-    [SerializeField] private float onDamageVFXDuration = .2f;
+    [SerializeField] private float onDamageVfxDuration = .2f;
     private Material originalMaterial;
     private Coroutine onDamageVfxCoroutine;
 
-    [Header("On Doing Damge VFX")]
+    [Header("On Doing Damage VFX")]
     [SerializeField] private Color hitVfxColor = Color.white;
     [SerializeField] private GameObject hitVfx;
     [SerializeField] private GameObject critHitVfx;
@@ -29,11 +31,12 @@ public class Entity_VFX : MonoBehaviour
         sr = GetComponentInChildren<SpriteRenderer>();
         originalMaterial = sr.material;
         originalHitVfxColor = hitVfxColor;
+
     }
 
     public void PlayOnStatusVfx(float duration, ElementType element)
     {
-        if(element == ElementType.Ice)
+        if (element == ElementType.Ice)
             StartCoroutine(PlayStatusVfxCo(duration, chillVfx));
 
         if (element == ElementType.Fire)
@@ -41,6 +44,7 @@ public class Entity_VFX : MonoBehaviour
 
         if(element == ElementType.Lightning)
             StartCoroutine(PlayStatusVfxCo(duration, electrifyVfx));
+            
     }
 
     public void StopAllVfx()
@@ -56,11 +60,11 @@ public class Entity_VFX : MonoBehaviour
         float timeHasPassed = 0;
 
         Color lightColor = effectColor * 1.2f;
-        Color darkColor = effectColor * .8f;
+        Color darkColor = effectColor * .9f;
 
         bool toggle = false;
 
-        while(timeHasPassed < duration)
+        while (timeHasPassed < duration)
         {
             sr.color = toggle ? lightColor : darkColor;
             toggle = !toggle;
@@ -78,7 +82,7 @@ public class Entity_VFX : MonoBehaviour
         GameObject vfx = Instantiate(hitPrefab, target.position, Quaternion.identity);
         vfx.GetComponentInChildren<SpriteRenderer>().color = hitVfxColor;
 
-        if(entity.facingDir == -1 && isCrit)
+        if (entity.facingDir == -1 && isCrit)
             vfx.transform.Rotate(0, 180, 0);
     }
 
@@ -93,7 +97,7 @@ public class Entity_VFX : MonoBehaviour
 
     public void PlayOnDamageVfx()
     {
-        if(onDamageVfxCoroutine != null) 
+        if(onDamageVfxCoroutine != null)
             StopCoroutine(onDamageVfxCoroutine);
 
         onDamageVfxCoroutine = StartCoroutine(OnDamageVfxCo());
@@ -103,7 +107,7 @@ public class Entity_VFX : MonoBehaviour
     {
         sr.material = onDamageMaterial;
 
-        yield return new WaitForSeconds(onDamageVFXDuration);
+        yield return new WaitForSeconds(onDamageVfxDuration);
         sr.material = originalMaterial;
     }
 }

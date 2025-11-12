@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e4be40de094cf4c43bffb332c53a9818
+guid: cf2459959aeecf64f8bc73a631746d5d
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -52,7 +52,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 32
-  spriteBorder: {x: 9, y: 17, z: 18, w: 12}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -103,10 +103,10 @@ TextureImporter:
       name: SP103_04_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 11
+        x: 12
+        y: 13
         width: 4
-        height: 2
+        height: 4
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -126,7 +126,7 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []

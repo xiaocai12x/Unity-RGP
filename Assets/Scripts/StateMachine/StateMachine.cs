@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class StateMachine
+public class StateMachine 
 {
     public EntityState currentState { get; private set; }
     public bool canChangeState;
@@ -25,11 +25,8 @@ public class StateMachine
 
     public void UpdateActiveState()
     {
-        currentState.Update();
+        currentState.Update();        
     }
-
 
     public void SwitchOffStateMachine() => canChangeState = false;
 }
-
-

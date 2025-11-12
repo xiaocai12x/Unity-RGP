@@ -7,7 +7,7 @@ public class Stat_SetupSO : ScriptableObject
     public float maxHealth = 100;
     public float healthRegen;
 
-    [Header("Offense - Physical Damage")]
+    [Header("Offense - Phyiscal Damage")]
     public float attackSpeed = 1;
     public float damage = 10;
     public float critChance;
@@ -19,7 +19,7 @@ public class Stat_SetupSO : ScriptableObject
     public float iceDamage;
     public float lightningDamage;
 
-    [Header("Defense - Physical Damage")]
+    [Header("Defense - Phyiscal Damage")]
     public float armor;
     public float evasion;
 

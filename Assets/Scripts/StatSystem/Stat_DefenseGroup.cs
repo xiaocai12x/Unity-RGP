@@ -2,14 +2,14 @@ using System;
 using UnityEngine;
 
 [Serializable]
-public class Stat_DefenseGroup
+public class Stat_DefenseGroup 
 {
-    //ÎïÀí·ÀÓù
-    public Stat armor; //»¤¼×
-    public Stat evasion; //ÉÁ±Ü
+    // Physical defense
+    public Stat armor;
+    public Stat evasion;
 
-    //Ä§·¨·ÀÓù
-    public Stat fireRes; //»ğÑæ¿¹ĞÔ
-    public Stat iceRes; //±ùËª¿¹ĞÔ
-    public Stat lightningRes; //ÉÁµç¿¹ĞÔ
+    // Elemental resistance
+    public Stat fireRes;
+    public Stat iceRes;
+    public Stat lightningRes;
 }

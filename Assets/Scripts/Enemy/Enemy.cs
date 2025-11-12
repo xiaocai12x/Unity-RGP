@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class Enemy : Entity
 {
-
     public Enemy_IdleState idleState;
     public Enemy_MoveState moveState;
     public Enemy_AttackState attackState;
@@ -33,7 +32,7 @@ public class Enemy : Entity
     [SerializeField] private LayerMask whatIsPlayer;
     [SerializeField] private Transform playerCheck;
     [SerializeField] private float playerCheckDistance = 10;
-    public Transform player { get ; private set; }
+    public Transform player { get; private set; }
 
     protected override IEnumerator SlowDownEntityCo(float duration, float slowMultiplier)
     {
@@ -54,7 +53,7 @@ public class Enemy : Entity
         anim.speed = originalAnimSpeed;
     }
 
-    public void EnableCounterWindow(bool enabled) => canBeStunned = enabled;
+    public void EnableCounterWindow(bool enable) => canBeStunned = enable;
 
     public override void EntityDeath()
     {
@@ -82,7 +81,7 @@ public class Enemy : Entity
 
     public Transform GetPlayerReference()
     {
-        if(player == null)
+        if (player == null)
             player = PlayerDetected().transform;
 
         return player;
@@ -116,9 +115,9 @@ public class Enemy : Entity
     {
         Player.OnPlayerDeath += HandlePlayerDeath;
     }
+
     private void OnDisable()
     {
-        Player.OnPlayerDeath -= HandlePlayerDeath;
+       Player.OnPlayerDeath -= HandlePlayerDeath;  
     }
-
 }

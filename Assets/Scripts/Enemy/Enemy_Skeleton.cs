@@ -23,12 +23,12 @@ public class Enemy_Skeleton : Enemy , ICounterable
         stateMachine.Initialize(idleState);
     }
 
-    [ContextMenu("Stun Enemy")]
     public void HandleCounter()
     {
-        if(CanBeCountered == false)
+        if (CanBeCountered == false)
             return;
 
         stateMachine.ChangeState(stunnedState);
     }
+
 }

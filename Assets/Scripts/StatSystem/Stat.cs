@@ -1,9 +1,8 @@
-using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-[System.Serializable]
+[Serializable]
 public class Stat
 {
     [SerializeField] private float baseValue;
@@ -20,12 +19,9 @@ public class Stat
             needToCalcualte = false;
         }
 
-
         return finalValue;
     }
 
-    // buff或者特殊效果道具等可以调用这个方法来修改基础属性值
-     
     public void AddModifier(float value, string source)
     {
         StatModifier modToAdd = new StatModifier(value, source);
@@ -35,7 +31,7 @@ public class Stat
 
     public void RemoveModifier(string source)
     {
-        modifiers.RemoveAll(modifier => modifier.Source == source);
+        modifiers.RemoveAll(modifier => modifier.source == source);
         needToCalcualte = true;
     }
 
@@ -43,28 +39,26 @@ public class Stat
     {
         float finalValue = baseValue;
 
-        foreach(var modifier in modifiers)
+        foreach (var modifier in modifiers)
         {
-            finalValue += modifier.Value;
-
+            finalValue = finalValue + modifier.value;
         }
 
         return finalValue;
     }
 
     public void SetBaseValue(float value) => baseValue = value;
-
 }
-
 
 [Serializable]
 public class StatModifier
 {
-    public float Value;
-    public string Source;
+    public float value; 
+    public string source; 
+
     public StatModifier(float value, string source)
     {
-        Value = value;
-        Source = source;
+        this.value = value;
+        this.source = source;
     }
 }
