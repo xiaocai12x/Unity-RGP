@@ -9,7 +9,7 @@ public class Skill_Dash : Skill_Base
             CreateClone();
 
 
-        if (Unlocked(SkillUpgradeType.Dash_ShardOnShart) || Unlocked(SkillUpgradeType.Dash_ShardOnStartAndArrival))
+        if (Unlocked(SkillUpgradeType.Dash_ShardOnStart) || Unlocked(SkillUpgradeType.Dash_ShardOnStartAndArrival))
             CreateShard();
     }
 

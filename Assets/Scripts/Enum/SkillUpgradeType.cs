@@ -3,40 +3,38 @@ public enum SkillUpgradeType
     None,
 
     // ------ Dash Tree -------
-    Dash, // Dash to avoid damage
-    Dash_CloneOnStart, // Create a clone when dash starts
-    Dash_CloneOnStartAndArrival, // Create a clone when dash starts and ends
-    Dash_ShardOnShart, // Create a shard when dash starts
-    Dash_ShardOnStartAndArrival, // Create a shard when dash starts and ends
+    Dash, // 闪避伤害
+    Dash_CloneOnStart, // 闪避开始时创建一个分身
+    Dash_CloneOnStartAndArrival, // 闪避开始和结束时分别创建一个分身
+    Dash_ShardOnStart, // 闪避开始时创建一个碎片 Dash_ShardOnShart
+    Dash_ShardOnStartAndArrival, // 闪避开始和结束时分别创建一个碎片
 
     // ------ Shard Tree -------
-    Shard, // The shard explodes when touched by an enemy or time goes up
-    Shard_MoveToEnemy, // Shard will move towards nearest enemy
-    Shard_Multicast, // Shard ability can have up to N charges. You can cast them all in a raw
-    Shard_Teleport, // You can swap places with the last shard you created
-    Shard_TeleportHpRewind, // When you swap places with shard, your HP % is same as it was when you created shard.
+    Shard, // 碎片在被敌人触碰或时间到期时爆炸
+    Shard_MoveToEnemy, // 碎片会移动到最近的敌人
+    Shard_Multicast, // 碎片技能可以拥有最多N个充能，可以一次性释放所有充能
+    Shard_Teleport, // 可以与你最后创建的碎片交换位置
+    Shard_TeleportHpRewind, // 与碎片交换位置时，你的生命值会回溯到创建碎片时的百分比
 
+    // ------ SwordThrow Tree -------
+    SwordThrow, // 可以投掷剑对远程敌人造成伤害
+    SwordThrow_Spin, // 剑会在一点旋转并攻击敌人，像电锯一样
+    SwordThrow_Pierce, // 穿透剑可以攻击N个目标
+    SwordThrow_Bounce, // 弹跳剑会在敌人之间弹跳
 
-    // ------ Shard Tree -------
-    SwordThrow, // You can throw sword to damage enemies from range
-    SwordThrow_Spin, // Your sword will spin at one point and damage enemies. Like a chainsaw
-    SwordThrow_Pierce, // Pierce sword will pierce N targets
-    SwordThrow_Bounce, // Bounce sword will bounce between enemies
+    // ------ Time Echo Tree -------
+    TimeEcho,  // 创建一个可以被敌人攻击的玩家分身
+    TimeEcho_SingleAttack, // 时间回响可以进行一次攻击
+    TimeEcho_MultiAttack, // 时间回响可以进行N次攻击
+    TimeEcho_ChanceToDuplicate, // 时间回响在攻击时有几率创建另一个时间回响
 
-    // ------ Time Ecoh -------
-    TimeEcho,  // Create a clone of a player. It can take damage from enemies.
-    TimeEcho_SingleAttack, // Time Echo can perform a single attack
-    TimeEcho_MultiAttack, // Time Echo can perform N attacks
-    TimeEcho_ChanceToDuplicate, // Time Echo has a chance to create another time echo when attacks
-
-    TimeEcho_HealWisp, // When time echo dies it creates a wips that flies towards the player to heal it.
-                       // Heal is = to percantage of damage taken when died
-    TimeEcho_CleanseWisp, // Wisp will now remove negative effects from player
-    TimeEcho_CooldownWisp, // Wisp will reduce cooldown of all skills by N second. 
+    TimeEcho_HealWisp, // 当时间回响死亡时，会生成一个飞向玩家的治疗精灵
+                       // 治疗量等于死亡时所承受伤害的百分比
+    TimeEcho_CleanseWisp, // 治疗精灵会移除玩家身上的负面效果
+    TimeEcho_CooldownWisp, // 治疗精灵会减少所有技能的冷却时间N秒
 
     // ------ Domain Expansion -------
-    Domain_SlowingDown, // Create an area in which you slow down enemies by 90-100% . You can freely move and fight.
-    Domain_EchoSpam, // You can no longer move, but you spam enemy with Time Echo ability
-    Domain_ShardSpam // You can no longer move, but you spam enemy with Time Shard ability
-
+    Domain_SlowingDown, // 创建一个可以减缓敌人速度90-100%的区域，你可以在其中自由移动和战斗
+    Domain_EchoSpam, // 你将无法移动，但可以使用时间回响技能不断攻击敌人
+    Domain_ShardSpam // 你将无法移动，但可以使用碎片技能不断攻击敌人 Dash_ShardOnShart
 }

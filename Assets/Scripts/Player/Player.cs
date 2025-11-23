@@ -1,18 +1,18 @@
 using System;
 using System.Collections;
-using Unity.Cinemachine;
 using UnityEngine;
 
 public class Player : Entity
 {
     public static event Action OnPlayerDeath;
 
-    private UI ui;
+    public UI ui {  get; private set; }
     public PlayerInputSet input { get; private set; }
     public Player_SkillManager skillManager { get; private set; }
     public Player_VFX vfx { get; private set; }
     public Entity_Health health { get; private set; }
     public Entity_StatusHandler statusHandler { get; private set; }
+    public Player_Combat combat { get; private set; }
 
 
     #region State Variables
@@ -56,7 +56,7 @@ public class Player : Entity
     public float dashDuration = .25f;
     public float dashSpeed = 20;
     public Vector2 moveInput { get; private set; }
-    public Vector2 mousePosition { get ; private set; }
+    public Vector2 mousePosition { get; private set; }
 
     protected override void Awake()
     {
@@ -68,6 +68,7 @@ public class Player : Entity
         health = GetComponent<Entity_Health>();
         skillManager = GetComponent<Player_SkillManager>();
         statusHandler = GetComponent<Entity_StatusHandler>();
+        combat = GetComponent<Player_Combat>();
 
         input = new PlayerInputSet();
 
@@ -152,6 +153,32 @@ public class Player : Entity
         stateMachine.ChangeState(basicAttackState);
     }
 
+    private void TryInteract()
+    {
+        Transform closest = null;
+        float closestDistance = Mathf.Infinity;
+        Collider2D[] objectsAround = Physics2D.OverlapCircleAll(transform.position, 1f);
+
+        foreach (var target in objectsAround)
+        {
+            IInteractable interactable = target.GetComponent<IInteractable>();
+            if (interactable == null) continue;
+
+            float distance = Vector2.Distance(transform.position, target.transform.position);
+
+            if (distance < closestDistance)
+            {
+                closestDistance = distance;
+                closest = target.transform;
+            }
+        }
+
+        if (closest == null)
+            return;
+
+        closest.GetComponent<IInteractable>().Interact();
+    }
+
     private void OnEnable()
     {
         input.Enable();
@@ -161,12 +188,13 @@ public class Player : Entity
         input.Player.Movement.performed += ctx => moveInput = ctx.ReadValue<Vector2>();
         input.Player.Movement.canceled += ctx => moveInput = Vector2.zero;
 
-        input.Player.ToggleSkillTreeUI.performed += ctx => ui.ToggleSkillTreeUI();
-
         input.Player.Spell.performed += ctx => skillManager.shard.TryUseSkill();
         input.Player.Spell.performed += ctx => skillManager.timeEcho.TryUseSkill();
-        
 
+        input.Player.Interact.performed += ctx => TryInteract();
+
+        input.Player.ToggleSkillTreeUI.performed += ctx => ui.ToggleSkillTreeUI();
+        input.Player.ToggleInventoryUI.performed += ctx => ui.ToggleInventoryUI();
     }
 
     private void OnDisable()
