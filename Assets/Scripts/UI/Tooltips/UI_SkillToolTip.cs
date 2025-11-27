@@ -45,7 +45,7 @@ public class UI_SkillToolTip : UI_ToolTip
         skillDescription.text = skillData.description;
         skillCooldown.text = "Cooldown: "+ skillData.upgradeData.cooldown + " s.";
 
-        if(node ==  null)
+        if (node == null)
         {
             skillRequirements.text = "";
             return;
@@ -59,10 +59,14 @@ public class UI_SkillToolTip : UI_ToolTip
 
     public void LockedSkillEffect()
     {
+        StopLockedSkillEffect();
+        textEffectCo = StartCoroutine(TextBlinkEffectCo(skillRequirements, .15f, 3));
+    }
+
+    public void StopLockedSkillEffect()
+    {
         if (textEffectCo != null)
             StopCoroutine(textEffectCo);
-
-        textEffectCo = StartCoroutine(TextBlinkEffectCo(skillRequirements, .15f, 3));
     }
 
     private IEnumerator TextBlinkEffectCo(TextMeshProUGUI text, float blinkInterval, int blinkCount)

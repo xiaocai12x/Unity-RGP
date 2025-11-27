@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Object_ItemPickup : MonoBehaviour
 {
+
     [SerializeField] private Vector2 dropForce = new Vector2(3, 10);
     [SerializeField] private ItemDataSO itemData;
 
@@ -9,8 +10,6 @@ public class Object_ItemPickup : MonoBehaviour
     [SerializeField] private SpriteRenderer sr;
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Collider2D col;
-
-
     private void OnValidate()
     {
         if (itemData == null)
@@ -20,9 +19,7 @@ public class Object_ItemPickup : MonoBehaviour
         SetupVisuals();
     }
 
-    /// <summary>
-    /// 0 references
-    /// </summary>
+
     public void SetupItem(ItemDataSO itemData)
     {
         this.itemData = itemData;
@@ -33,13 +30,13 @@ public class Object_ItemPickup : MonoBehaviour
         col.isTrigger = false;
     }
 
+
     private void SetupVisuals()
     {
         sr.sprite = itemData.itemIcon;
         gameObject.name = "Object_ItemPickup - " + itemData.itemName;
     }
 
-    // Unity Message | 0 references
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Ground") && col.isTrigger == false)
@@ -49,13 +46,12 @@ public class Object_ItemPickup : MonoBehaviour
         }
     }
 
-
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Inventory_Player inventory = collision.GetComponent<Inventory_Player>();
 
-        if(inventory == null) return;
+        if (inventory == null)
+            return;
 
         Inventory_Item itemToAdd = new Inventory_Item(itemData);
         Inventory_Storage storage = inventory.storage;

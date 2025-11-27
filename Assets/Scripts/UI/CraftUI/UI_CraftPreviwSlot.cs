@@ -7,9 +7,9 @@ public class UI_CraftPreviwSlot : MonoBehaviour
     [SerializeField] private Image materialIcon;
     [SerializeField] private TextMeshProUGUI materialNameValue;
 
-    public void SetupPreviwSlot(ItemDataSO itemData, int availableAmount, int requiredAmount)
+    public void SetupPreviwSlot(ItemDataSO itemData, int avaliableAmount, int requiredAmount)
     {
         materialIcon.sprite = itemData.itemIcon;
-        materialNameValue.text = itemData.itemName + " - " + availableAmount + "/" + requiredAmount;
+        materialNameValue.text = itemData.itemName + " - " + avaliableAmount + "/" + requiredAmount;
     }
 }

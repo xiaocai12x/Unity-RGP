@@ -5,6 +5,7 @@ public class UI_CraftListButton : MonoBehaviour
     [SerializeField] private ItemListDataSO craftData;
     private UI_CraftSlot[] craftSlots;
 
+
     public void SetCraftSlots(UI_CraftSlot[] craftSlots) => this.craftSlots = craftSlots;
 
     public void UpdateCraftSlots()

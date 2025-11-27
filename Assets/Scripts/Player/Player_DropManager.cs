@@ -4,8 +4,8 @@ using UnityEngine;
 public class Player_DropManager : Entity_DropManager
 {
     [Header("PLAYER Drop Details")]
-    [Range(0, 100)]
-    [SerializeField] private float chanceToLoseItem = 90f;
+    [Range(0,100)]
+    [SerializeField] private float chanceToLooseItem = 90f;
     private Inventory_Player inventory;
 
     private void Awake()
@@ -16,22 +16,23 @@ public class Player_DropManager : Entity_DropManager
     public override void DropItems()
     {
         List<Inventory_Item> inventoryCopy = new List<Inventory_Item>(inventory.itemList);
-        List<Inventory_EquipmentSlot> equipCopy = new List<Inventory_EquipmentSlot>(inventory.equipList);
+        List<Inventory_EquipmentSlot> eqiupCopy = new List<Inventory_EquipmentSlot>(inventory.equipList);
 
         foreach (var item in inventoryCopy)
         {
-            if (Random.Range(0, 100) < chanceToLoseItem)
+            if (Random.Range(0, 100) < chanceToLooseItem)
             {
                 CreateItemDrop(item.itemData);
                 inventory.RemoveFullStack(item);
             }
         }
 
-        foreach (var equip in equipCopy)
+        foreach (var equip in eqiupCopy)
         {
-            if (Random.Range(0, 100) < chanceToLoseItem && equip.HasItem())
+            if (Random.Range(0, 100) < chanceToLooseItem && equip.HasItem())
             {
                 var item = equip.GetEquipedItem();
+
                 CreateItemDrop(item.itemData);
                 inventory.UnequipItem(item);
                 inventory.RemoveFullStack(item);

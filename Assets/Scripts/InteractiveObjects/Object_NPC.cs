@@ -43,7 +43,7 @@ public class Object_NPC : MonoBehaviour
 
         if (npc.position.x > player.position.x && facingRight)
         {
-            npc.transform.Rotate(0, 180, 0);
+            npc.transform.Rotate(0, 180,0);
             facingRight = false;
         }
         else if (npc.position.x < player.position.x && facingRight == false)
@@ -63,7 +63,4 @@ public class Object_NPC : MonoBehaviour
     {
         interactToolTip.SetActive(false);
     }
-
-
-
 }

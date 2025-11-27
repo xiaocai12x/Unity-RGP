@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a3a0af1cee4560343ad0e94664d78ecd
+guid: 9f069c7c2bd74e148acb9fdf344c5fac
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -403,7 +403,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jotem spritesheet_0
+      name: Brothers_Graphics_0
       rect:
         serializedVersion: 2
         x: 0
@@ -416,16 +416,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 089b31a5102e659a0800000000000000
-      internalID: -6244555337868527232
+      spriteID: ad8bbd5f93712094397f4f6f772f8136
+      internalID: 1105193851
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_1
+      name: Brothers_Graphics_1
       rect:
         serializedVersion: 2
         x: 128
@@ -438,16 +438,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c7b4179a4afb7fe90800000000000000
-      internalID: -6991909182531089540
+      spriteID: bed3768a240e6014db32558fa5b0e712
+      internalID: 1813954494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_2
+      name: Brothers_Graphics_2
       rect:
         serializedVersion: 2
         x: 256
@@ -460,16 +460,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5c59fc99a1aa08640800000000000000
-      internalID: 5080247410900309445
+      spriteID: c3d84602837618843bff134d170996d7
+      internalID: 1983311322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_3
+      name: Brothers_Graphics_3
       rect:
         serializedVersion: 2
         x: 384
@@ -482,16 +482,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 14a2edf5dbbfffac0800000000000000
-      internalID: -3819057168211105215
+      spriteID: 1029e6def7e24df46b88e55527c19b4e
+      internalID: -1345672514
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_4
+      name: Brothers_Graphics_4
       rect:
         serializedVersion: 2
         x: 512
@@ -504,16 +504,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7cf458dc03153d000800000000000000
-      internalID: 59480490134294471
+      spriteID: d4309af1aabe9f64fad28bede274c347
+      internalID: -882473210
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_5
+      name: Brothers_Graphics_5
       rect:
         serializedVersion: 2
         x: 640
@@ -526,16 +526,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 60c5763c847df4c10800000000000000
-      internalID: 2040085863738072070
+      spriteID: 84956b834112d034fa4eba3fcd766202
+      internalID: -1714855525
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_6
+      name: Brothers_Graphics_6
       rect:
         serializedVersion: 2
         x: 0
@@ -548,16 +548,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f5dc2ecbb3b17b6a0800000000000000
-      internalID: -6433643599289463457
+      spriteID: 3e2d9a003b3ec4b4e8bcf5371b613c74
+      internalID: -1721363437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_7
+      name: Brothers_Graphics_7
       rect:
         serializedVersion: 2
         x: 128
@@ -570,16 +570,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 94496a7f6be6c2050800000000000000
-      internalID: 5777114154127496265
+      spriteID: d0e1d29757bc0084fa313fdcd5f85735
+      internalID: -218278918
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_8
+      name: Brothers_Graphics_8
       rect:
         serializedVersion: 2
         x: 256
@@ -592,16 +592,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c5c077c7610bc4110800000000000000
-      internalID: 1246564807498730588
+      spriteID: 77b4c557fee9c2e498d058f58c8714f9
+      internalID: -1239022415
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_9
+      name: Brothers_Graphics_9
       rect:
         serializedVersion: 2
         x: 384
@@ -614,16 +614,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 70c88d666853599b0800000000000000
-      internalID: -5074090553795638265
+      spriteID: d4857803327884341b50173e406e4ecb
+      internalID: 103875411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_10
+      name: Brothers_Graphics_10
       rect:
         serializedVersion: 2
         x: 512
@@ -636,16 +636,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bbad002608debe8e0800000000000000
-      internalID: -1662974501727446341
+      spriteID: 2651f5d700c61cf48911405d740ffc3c
+      internalID: 565714789
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_11
+      name: Brothers_Graphics_11
       rect:
         serializedVersion: 2
         x: 640
@@ -658,16 +658,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 702b9b4fe2d8c5c60800000000000000
-      internalID: 7808271086767419911
+      spriteID: 91f6b982f8d5f6b4eb139120b4caf2f2
+      internalID: 331314951
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_12
+      name: Brothers_Graphics_12
       rect:
         serializedVersion: 2
         x: 768
@@ -680,16 +680,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2c0ad51218be58ef0800000000000000
-      internalID: -106420076330245950
+      spriteID: 4b05074a0fa7b66469d7febb5cbc91aa
+      internalID: -1381072657
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_13
+      name: Brothers_Graphics_13
       rect:
         serializedVersion: 2
         x: 896
@@ -702,16 +702,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 763c69839527ce0f0800000000000000
-      internalID: -1086367682576071833
+      spriteID: e079a282f70a52b4297911902270e6d8
+      internalID: -1039254695
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_14
+      name: Brothers_Graphics_14
       rect:
         serializedVersion: 2
         x: 0
@@ -724,16 +724,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6548a12bc0f6b54e0800000000000000
-      internalID: -1991876309862939562
+      spriteID: 3d1149ef4d2e0b04ebf8bfe0590560e6
+      internalID: -1983849616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_15
+      name: Brothers_Graphics_15
       rect:
         serializedVersion: 2
         x: 128
@@ -746,16 +746,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b836785329f6df460800000000000000
-      internalID: 7277095246654563211
+      spriteID: 9bc00da1b26f0db43ac8face98383581
+      internalID: 1946941144
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_16
+      name: Brothers_Graphics_16
       rect:
         serializedVersion: 2
         x: 256
@@ -768,16 +768,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 440b659fcf7ae9290800000000000000
-      internalID: -7881677592894984124
+      spriteID: ece632ff2271dff49bb82326180d12fd
+      internalID: 1686709208
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_17
+      name: Brothers_Graphics_17
       rect:
         serializedVersion: 2
         x: 384
@@ -790,16 +790,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7c093b069aa467a90800000000000000
-      internalID: -7316578453284482873
+      spriteID: 72059fd2e19d0954f9eb7cc348faf148
+      internalID: -662996830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_18
+      name: Brothers_Graphics_18
       rect:
         serializedVersion: 2
         x: 512
@@ -812,16 +812,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5d63a0737be8bf610800000000000000
-      internalID: 1656074205542364885
+      spriteID: 030e0e9c5c1456344ab7ab84227a8890
+      internalID: -671921229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_19
+      name: Brothers_Graphics_19
       rect:
         serializedVersion: 2
         x: 640
@@ -834,16 +834,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f2f1e4856d9c96b80800000000000000
-      internalID: -8400961707441250513
+      spriteID: 732e3405586cea846b98fce86ad0cd4f
+      internalID: -1166061722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_20
+      name: Brothers_Graphics_20
       rect:
         serializedVersion: 2
         x: 0
@@ -856,16 +856,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 029d93605b2049f90800000000000000
-      internalID: -6947925348609042144
+      spriteID: 4c568a32dd4e7cc42b2629f086032da6
+      internalID: 1284667667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_21
+      name: Brothers_Graphics_21
       rect:
         serializedVersion: 2
         x: 128
@@ -878,16 +878,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 426a96c66def11b60800000000000000
-      internalID: 7715227833557689892
+      spriteID: a30c412d757c4e74c9b9ac0ab40cf67c
+      internalID: -1566980206
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_22
+      name: Brothers_Graphics_22
       rect:
         serializedVersion: 2
         x: 256
@@ -900,16 +900,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2fbbc74eb1a993be0800000000000000
-      internalID: -1496995956535804942
+      spriteID: e7ae9bb6b09490047b50f5ccec1118e7
+      internalID: 1639208808
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_23
+      name: Brothers_Graphics_23
       rect:
         serializedVersion: 2
         x: 384
@@ -922,16 +922,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 39e75c30798b929c0800000000000000
-      internalID: -3951424239298052461
+      spriteID: de82b387feff2584e8dbad3032e8cd1c
+      internalID: -147719933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_24
+      name: Brothers_Graphics_24
       rect:
         serializedVersion: 2
         x: 512
@@ -944,16 +944,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f23ecd5c99544c7b0800000000000000
-      internalID: -5204958742581550289
+      spriteID: 34c4dbb925a8e8a4197be632c7100f95
+      internalID: 1897685724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_25
+      name: Brothers_Graphics_25
       rect:
         serializedVersion: 2
         x: 640
@@ -966,16 +966,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b81eb9dc1119c71f0800000000000000
-      internalID: -1045801507806781045
+      spriteID: 75349e72eca9f20458bd92a2fb2e0a6a
+      internalID: -2062084565
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_26
+      name: Brothers_Graphics_26
       rect:
         serializedVersion: 2
         x: 768
@@ -988,16 +988,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 598892db9ec8c1dc0800000000000000
-      internalID: -3666901061057541995
+      spriteID: c9f25fd084c69cf42b30128638e3dafb
+      internalID: -538703059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_27
+      name: Brothers_Graphics_27
       rect:
         serializedVersion: 2
         x: 896
@@ -1010,16 +1010,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: eae4cc1211fde60b0800000000000000
-      internalID: -5733400010921587026
+      spriteID: 70a79d5ae20f9594a852a49ead1f479d
+      internalID: -190645915
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_28
+      name: Brothers_Graphics_28
       rect:
         serializedVersion: 2
         x: 0
@@ -1032,16 +1032,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fff357da2e9339d50800000000000000
-      internalID: 6742796712839299071
+      spriteID: b5cfc92565591ac4596c60e3bc60b6c4
+      internalID: 1478033899
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_29
+      name: Brothers_Graphics_29
       rect:
         serializedVersion: 2
         x: 128
@@ -1054,16 +1054,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cc6d05d75a423b1f0800000000000000
-      internalID: -1030439596547057972
+      spriteID: 5f7e0b1c3677c0842a16f44c736e7394
+      internalID: 379177503
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_30
+      name: Brothers_Graphics_30
       rect:
         serializedVersion: 2
         x: 256
@@ -1076,16 +1076,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 26f0e52027cc04d70800000000000000
-      internalID: 9025438443288530786
+      spriteID: 26c9851ab8b70224285096e63d303187
+      internalID: -2019917344
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_31
+      name: Brothers_Graphics_31
       rect:
         serializedVersion: 2
         x: 0
@@ -1098,16 +1098,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6d57191e9ae8df6a0800000000000000
-      internalID: -6413813434020694570
+      spriteID: f367d6c6a5254f742adf913701c39dee
+      internalID: -1290494437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_32
+      name: Brothers_Graphics_32
       rect:
         serializedVersion: 2
         x: 128
@@ -1120,16 +1120,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dca60cdc83abe90b0800000000000000
-      internalID: -5719929723581076787
+      spriteID: 2c6df4a88b6060249a6e0ca12008fdd8
+      internalID: 1821921717
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_33
+      name: Brothers_Graphics_33
       rect:
         serializedVersion: 2
         x: 256
@@ -1142,16 +1142,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e1b7f2386873d4980800000000000000
-      internalID: -8553119066440631522
+      spriteID: 9106aa48105dc704aa40d66c8b8cbbfa
+      internalID: 1894859646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_34
+      name: Brothers_Graphics_34
       rect:
         serializedVersion: 2
         x: 384
@@ -1164,16 +1164,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7f1d99afc2085aa50800000000000000
-      internalID: 6531767765242073591
+      spriteID: 853189b3aea9d3f46a7589265849001d
+      internalID: 1772328153
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_35
+      name: Brothers_Graphics_35
       rect:
         serializedVersion: 2
         x: 512
@@ -1186,16 +1186,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2cdcb0df540da7040800000000000000
-      internalID: 4646254964602817986
+      spriteID: 889438ce29341a34ea001f70fcf07a48
+      internalID: 893706531
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_36
+      name: Brothers_Graphics_36
       rect:
         serializedVersion: 2
         x: 0
@@ -1208,16 +1208,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 21eece073f6c05810800000000000000
-      internalID: 1752119003921051154
+      spriteID: 63f0e5df52d991a4cb68346626168544
+      internalID: 1863541861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_37
+      name: Brothers_Graphics_37
       rect:
         serializedVersion: 2
         x: 128
@@ -1230,16 +1230,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 442ae31d1bbadfb90800000000000000
-      internalID: -7206415048514821564
+      spriteID: 3fe2ebe86cfa16a49a43d61977c6ed9c
+      internalID: -1822065389
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_38
+      name: Brothers_Graphics_38
       rect:
         serializedVersion: 2
         x: 256
@@ -1252,16 +1252,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2a4fdece9ffcc61a0800000000000000
-      internalID: -6814843463789579102
+      spriteID: 7cf496b44ce5a5e4397328cae3be5f44
+      internalID: 1356470270
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_39
+      name: Brothers_Graphics_39
       rect:
         serializedVersion: 2
         x: 384
@@ -1274,16 +1274,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: eabd77220a378a670800000000000000
-      internalID: 8550211024173128622
+      spriteID: 596925027456f144ba5df21278253902
+      internalID: -1110394506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_40
+      name: Brothers_Graphics_40
       rect:
         serializedVersion: 2
         x: 512
@@ -1296,16 +1296,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6e77c9c0edf5d4820800000000000000
-      internalID: 2904082742022797286
+      spriteID: 6d6d527914a2deb4b9309dbac5b5092c
+      internalID: -1279899340
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_41
+      name: Brothers_Graphics_41
       rect:
         serializedVersion: 2
         x: 640
@@ -1318,16 +1318,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c0a35737e79ca9f70800000000000000
-      internalID: 9194883134170413580
+      spriteID: 7e51b806182ae694791c65132f42ad30
+      internalID: 921565139
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_42
+      name: Brothers_Graphics_42
       rect:
         serializedVersion: 2
         x: 768
@@ -1340,16 +1340,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9a56dce9d54e434b0800000000000000
-      internalID: -5461489357346216535
+      spriteID: a9b66b181f3b49d4aba67b14ff22cc90
+      internalID: 71816358
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_43
+      name: Brothers_Graphics_43
       rect:
         serializedVersion: 2
         x: 896
@@ -1362,16 +1362,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 899464319c42d9230800000000000000
-      internalID: 3647111719270369688
+      spriteID: c2080d5d2bf4ccd458583b69e10e0289
+      internalID: 974637961
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_44
+      name: Brothers_Graphics_44
       rect:
         serializedVersion: 2
         x: 1024
@@ -1384,16 +1384,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f5fbfb943b8205e50800000000000000
-      internalID: 6795976588203638623
+      spriteID: f67d28259ff7b024c9c5d72adaa388a7
+      internalID: 796905627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_45
+      name: Brothers_Graphics_45
       rect:
         serializedVersion: 2
         x: 1152
@@ -1406,16 +1406,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b72ee4e7204cdff30800000000000000
-      internalID: 4611057108485333627
+      spriteID: 69cd0cf5e0a07aa4f9c65b9ccdb451f5
+      internalID: 1187085791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_46
+      name: Brothers_Graphics_46
       rect:
         serializedVersion: 2
         x: 0
@@ -1428,16 +1428,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8697b2499bde53ec0800000000000000
-      internalID: -3587700146820122264
+      spriteID: 2cc307260d74965419e98cf4878ecc7d
+      internalID: 1230430479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_47
+      name: Brothers_Graphics_47
       rect:
         serializedVersion: 2
         x: 128
@@ -1450,16 +1450,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2a3d4dedc4c0e68d0800000000000000
-      internalID: -2851327989783407710
+      spriteID: ef0119e955e38254293c6e4b31f54008
+      internalID: 2016027090
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_48
+      name: Brothers_Graphics_48
       rect:
         serializedVersion: 2
         x: 256
@@ -1472,16 +1472,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 27fd849f005ce7140800000000000000
-      internalID: 4719426067503832946
+      spriteID: 3d2efcfde9310d143af09d271c8d113e
+      internalID: 1737463295
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_49
+      name: Brothers_Graphics_49
       rect:
         serializedVersion: 2
         x: 384
@@ -1494,16 +1494,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1bb3adcc413ed62e0800000000000000
-      internalID: -2130797370200671311
+      spriteID: 38495d24c4237bc4eb82ce065d5f67ad
+      internalID: -2144522680
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_50
+      name: Brothers_Graphics_50
       rect:
         serializedVersion: 2
         x: 512
@@ -1516,16 +1516,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 74f2d6cf814876470800000000000000
-      internalID: 8387818073849933639
+      spriteID: f4afe1c97b861a943941636a54de62f3
+      internalID: 1681786894
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_51
+      name: Brothers_Graphics_51
       rect:
         serializedVersion: 2
         x: 640
@@ -1538,16 +1538,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2e6659d2ce7cc1ee0800000000000000
-      internalID: -1288935576143829278
+      spriteID: aea9647dd925f5e49bc56850e6f1ede8
+      internalID: -619585620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_52
+      name: Brothers_Graphics_52
       rect:
         serializedVersion: 2
         x: 768
@@ -1560,16 +1560,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b3a223a65303a4b40800000000000000
-      internalID: 5425201707094256187
+      spriteID: b44a5560a5def3d4e9bdf6590f4e3386
+      internalID: 468340147
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_53
+      name: Brothers_Graphics_53
       rect:
         serializedVersion: 2
         x: 896
@@ -1582,16 +1582,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 10ad7c73f3dd0ec70800000000000000
-      internalID: 8998435319074773505
+      spriteID: 9aba7340507e3c54ea86a929ee9ce1e7
+      internalID: 1555278984
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_54
+      name: Brothers_Graphics_54
       rect:
         serializedVersion: 2
         x: 1024
@@ -1604,16 +1604,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 921c86cdfb160df50800000000000000
-      internalID: 6904125705423470889
+      spriteID: 5cb9e18ae029958428c088ad07940a8a
+      internalID: -1929188675
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_55
+      name: Brothers_Graphics_55
       rect:
         serializedVersion: 2
         x: 1152
@@ -1626,16 +1626,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 073989b5bf6b041c0800000000000000
-      internalID: -4521412835190205584
+      spriteID: 8fef64c8c34cb6a49892b9d233849883
+      internalID: 81656714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_56
+      name: Brothers_Graphics_56
       rect:
         serializedVersion: 2
         x: 0
@@ -1648,16 +1648,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: af1a615853711d110800000000000000
-      internalID: 1283832887410860538
+      spriteID: 03cfb2285d79e5c4eaf1cd57fd80a608
+      internalID: 1668086108
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_57
+      name: Brothers_Graphics_57
       rect:
         serializedVersion: 2
         x: 128
@@ -1670,16 +1670,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9d51474bc96471d80800000000000000
-      internalID: -8280071751041018407
+      spriteID: 0c806ccb0926aae419d0f8af75835358
+      internalID: 1526904410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_58
+      name: Brothers_Graphics_58
       rect:
         serializedVersion: 2
         x: 256
@@ -1692,16 +1692,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b22f4689cce1eb920800000000000000
-      internalID: 3007875465208984107
+      spriteID: e0174556a44216d409b983e423c2faff
+      internalID: -1943171682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_59
+      name: Brothers_Graphics_59
       rect:
         serializedVersion: 2
         x: 384
@@ -1714,16 +1714,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c91e062c9d1f958d0800000000000000
-      internalID: -2856986571018542692
+      spriteID: bcf76b69cb3f44749a905c52068e4464
+      internalID: -218845562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_60
+      name: Brothers_Graphics_60
       rect:
         serializedVersion: 2
         x: 512
@@ -1736,16 +1736,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e8f22bf6de9f52ff0800000000000000
-      internalID: -61368221723119730
+      spriteID: 714843f3d3bfb064e8a45962f0c3cea9
+      internalID: 241930975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_61
+      name: Brothers_Graphics_61
       rect:
         serializedVersion: 2
         x: 0
@@ -1758,16 +1758,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0896189aa057ee8d0800000000000000
-      internalID: -2815184028406027904
+      spriteID: a99ff66c702bcc04e8a038b9ff1ae33d
+      internalID: -1654516948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_62
+      name: Brothers_Graphics_62
       rect:
         serializedVersion: 2
         x: 128
@@ -1780,16 +1780,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bcf0c9838d8ee3360800000000000000
-      internalID: 7151409273671258059
+      spriteID: 8df36661f789e4149bf8b739e32d4b2b
+      internalID: 1943302468
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_63
+      name: Brothers_Graphics_63
       rect:
         serializedVersion: 2
         x: 256
@@ -1802,16 +1802,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e9be679914a7e6fb0800000000000000
-      internalID: -4652646942860973154
+      spriteID: 45c1c530dde72ab4d8e16a436827756c
+      internalID: 1091899310
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_64
+      name: Brothers_Graphics_64
       rect:
         serializedVersion: 2
         x: 384
@@ -1824,16 +1824,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 469e4a1838f56f3a0800000000000000
-      internalID: -6632008382836053660
+      spriteID: 40561cf30e768a945bb8f5d1f4f9c70d
+      internalID: 2092583282
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_65
+      name: Brothers_Graphics_65
       rect:
         serializedVersion: 2
         x: 512
@@ -1846,16 +1846,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dfe6482c1024cc710800000000000000
-      internalID: 1714818133447175933
+      spriteID: 382462937469bea4c9e258b6e81e858f
+      internalID: -1439342398
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_66
+      name: Brothers_Graphics_66
       rect:
         serializedVersion: 2
         x: 640
@@ -1868,16 +1868,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b0ab3441b95e40820800000000000000
-      internalID: 2883682115646634507
+      spriteID: de45e47418e48ce40b6a0a5244723344
+      internalID: -333212996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_67
+      name: Brothers_Graphics_67
       rect:
         serializedVersion: 2
         x: 768
@@ -1890,16 +1890,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9c4e174f8325788e0800000000000000
-      internalID: -1691292730481580855
+      spriteID: 7295853acc14eb144bea3254d1b94d34
+      internalID: -868487442
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_68
+      name: Brothers_Graphics_68
       rect:
         serializedVersion: 2
         x: 896
@@ -1912,16 +1912,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5726e0e1e75832980800000000000000
-      internalID: -8564855289611918731
+      spriteID: bccb5d31c9662624bb9fcfd52be4fa77
+      internalID: -814589650
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_69
+      name: Brothers_Graphics_69
       rect:
         serializedVersion: 2
         x: 1024
@@ -1934,16 +1934,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d3ace77f05860a5a0800000000000000
-      internalID: -6512090364218783171
+      spriteID: f6bf2b5eee1478e4cb5568204ed7ee04
+      internalID: -1178929099
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_70
+      name: Brothers_Graphics_70
       rect:
         serializedVersion: 2
         x: 1152
@@ -1956,16 +1956,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3919a05ad72bd7de0800000000000000
-      internalID: -1333713661922209389
+      spriteID: fb0f17736205eba498bef9d4331dd223
+      internalID: 499744011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_71
+      name: Brothers_Graphics_71
       rect:
         serializedVersion: 2
         x: 1280
@@ -1978,16 +1978,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0c6f7909fc1455690800000000000000
-      internalID: -7614107235260041536
+      spriteID: 974175d4d708e6b4ca0f045138372d41
+      internalID: 219368647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_72
+      name: Brothers_Graphics_72
       rect:
         serializedVersion: 2
         x: 1408
@@ -2000,16 +2000,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ff0ed884634f977f0800000000000000
-      internalID: -614191360176692993
+      spriteID: a9202aa84b4b2f343a6ff00f96ea5b6a
+      internalID: -257120064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_73
+      name: Brothers_Graphics_73
       rect:
         serializedVersion: 2
         x: 0
@@ -2022,16 +2022,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c4ce6db370a051890800000000000000
-      internalID: -7488067779248591796
+      spriteID: f0d3e9ee88b1a4d45a5c69e3e510091b
+      internalID: -149331652
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_74
+      name: Brothers_Graphics_74
       rect:
         serializedVersion: 2
         x: 128
@@ -2044,16 +2044,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: eced86ab5f34a64d0800000000000000
-      internalID: -3140623067464016178
+      spriteID: c1b71466011edbf45918f5017034cea7
+      internalID: 2015757698
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_75
+      name: Brothers_Graphics_75
       rect:
         serializedVersion: 2
         x: 256
@@ -2066,16 +2066,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 05857ff7030dacef0800000000000000
-      internalID: -87028336056379312
+      spriteID: f8e33c48336d58c40aac540813f2330d
+      internalID: 1004932449
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_76
+      name: Brothers_Graphics_76
       rect:
         serializedVersion: 2
         x: 384
@@ -2088,16 +2088,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8db75b3eefd2eacd0800000000000000
-      internalID: -2545046166652486696
+      spriteID: 7fcebc41d77584b47924e4f95b6a63a7
+      internalID: 1654338656
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_77
+      name: Brothers_Graphics_77
       rect:
         serializedVersion: 2
         x: 512
@@ -2110,16 +2110,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4b8cfad06f1751e30800000000000000
-      internalID: 4473607106467973300
+      spriteID: e050f17b186db2644bdf996e63555fb6
+      internalID: 1575962181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_78
+      name: Brothers_Graphics_78
       rect:
         serializedVersion: 2
         x: 640
@@ -2132,16 +2132,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d563995ab4cb31630800000000000000
-      internalID: 3896665135692461661
+      spriteID: 297449124498e164682882249d257796
+      internalID: 1976042825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_79
+      name: Brothers_Graphics_79
       rect:
         serializedVersion: 2
         x: 768
@@ -2154,16 +2154,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dbb03fb2feca4f4b0800000000000000
-      internalID: -5407507109330613315
+      spriteID: bcba341bc8f875343a2e5cdca5a84969
+      internalID: -1442185682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_80
+      name: Brothers_Graphics_80
       rect:
         serializedVersion: 2
         x: 896
@@ -2176,16 +2176,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 07cbdc8d499b99740800000000000000
-      internalID: 5159358897073273968
+      spriteID: dbb212fc45b093a48a21d2633b5be014
+      internalID: -1563617538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_81
+      name: Brothers_Graphics_81
       rect:
         serializedVersion: 2
         x: 1024
@@ -2198,16 +2198,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f351f74d66b141a60800000000000000
-      internalID: 7643764596020286783
+      spriteID: 41994bae25dcba643a9d57b75539c4e0
+      internalID: -52495348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_82
+      name: Brothers_Graphics_82
       rect:
         serializedVersion: 2
         x: 1152
@@ -2220,16 +2220,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b660b670bae91bb80800000000000000
-      internalID: -8380742974158731669
+      spriteID: ea666c542d77bcb47a4ec77cd83cd7d3
+      internalID: -1969163654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_83
+      name: Brothers_Graphics_83
       rect:
         serializedVersion: 2
         x: 1280
@@ -2242,16 +2242,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d5ab49ed1abe9e880800000000000000
-      internalID: -8581068534521218467
+      spriteID: 28ef31722ea520a42ba4ead943c08e6b
+      internalID: 1575942294
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_84
+      name: Brothers_Graphics_84
       rect:
         serializedVersion: 2
         x: 1408
@@ -2264,16 +2264,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e89424cda64b0b660800000000000000
-      internalID: 7399612558824589710
+      spriteID: 8194bb436f62df74abafe621d4494025
+      internalID: -354357999
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_85
+      name: Brothers_Graphics_85
       rect:
         serializedVersion: 2
         x: 0
@@ -2286,16 +2286,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d5b814292f4dfe3c0800000000000000
-      internalID: -4328006578578814115
+      spriteID: 2e16cadf834fde048bc1dc670957c1bb
+      internalID: 1637247722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_86
+      name: Brothers_Graphics_86
       rect:
         serializedVersion: 2
         x: 128
@@ -2308,16 +2308,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cb7aee22811a7ff70800000000000000
-      internalID: 9221015887101732796
+      spriteID: 38a117c4cfcba0a4397c12188ef0bdf4
+      internalID: 625582708
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_87
+      name: Brothers_Graphics_87
       rect:
         serializedVersion: 2
         x: 256
@@ -2330,16 +2330,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: df37f3ae0c15a6430800000000000000
-      internalID: 3776921126509179901
+      spriteID: 701c5bc69c0806941bfdc15200e590da
+      internalID: 235064351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_88
+      name: Brothers_Graphics_88
       rect:
         serializedVersion: 2
         x: 384
@@ -2352,16 +2352,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 930f52286adfa3940800000000000000
-      internalID: 5276808805007880249
+      spriteID: 6d0ad4084df9fbf41bb4e09de4908242
+      internalID: 886582873
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_89
+      name: Brothers_Graphics_89
       rect:
         serializedVersion: 2
         x: 512
@@ -2374,16 +2374,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 34ac50b6e33adfb60800000000000000
-      internalID: 7781555219644926531
+      spriteID: cbe669cce099135469f52ed54b897e8e
+      internalID: -683915224
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jotem spritesheet_90
+      name: Brothers_Graphics_90
       rect:
         serializedVersion: 2
         x: 640
@@ -2396,10 +2396,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a4f39455bec2f0d70800000000000000
-      internalID: 9011470768651452234
+      spriteID: 6fca23bcdf66d2d44a209ff97505d91a
+      internalID: 1276340080
       vertices: []
       indices: 
       edges: []
@@ -2408,7 +2408,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 7ac176c884711894383cd4b9228a8670
+    spriteID: bab5875fffdc33c41b9039209c21d66b
     internalID: 0
     vertices: []
     indices: 
@@ -2416,101 +2416,99 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.11999999731779099},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      Jotem spritesheet_0: -6244555337868527232
-      Jotem spritesheet_1: -6991909182531089540
-      Jotem spritesheet_10: -1662974501727446341
-      Jotem spritesheet_11: 7808271086767419911
-      Jotem spritesheet_12: -106420076330245950
-      Jotem spritesheet_13: -1086367682576071833
-      Jotem spritesheet_14: -1991876309862939562
-      Jotem spritesheet_15: 7277095246654563211
-      Jotem spritesheet_16: -7881677592894984124
-      Jotem spritesheet_17: -7316578453284482873
-      Jotem spritesheet_18: 1656074205542364885
-      Jotem spritesheet_19: -8400961707441250513
-      Jotem spritesheet_2: 5080247410900309445
-      Jotem spritesheet_20: -6947925348609042144
-      Jotem spritesheet_21: 7715227833557689892
-      Jotem spritesheet_22: -1496995956535804942
-      Jotem spritesheet_23: -3951424239298052461
-      Jotem spritesheet_24: -5204958742581550289
-      Jotem spritesheet_25: -1045801507806781045
-      Jotem spritesheet_26: -3666901061057541995
-      Jotem spritesheet_27: -5733400010921587026
-      Jotem spritesheet_28: 6742796712839299071
-      Jotem spritesheet_29: -1030439596547057972
-      Jotem spritesheet_3: -3819057168211105215
-      Jotem spritesheet_30: 9025438443288530786
-      Jotem spritesheet_31: -6413813434020694570
-      Jotem spritesheet_32: -5719929723581076787
-      Jotem spritesheet_33: -8553119066440631522
-      Jotem spritesheet_34: 6531767765242073591
-      Jotem spritesheet_35: 4646254964602817986
-      Jotem spritesheet_36: 1752119003921051154
-      Jotem spritesheet_37: -7206415048514821564
-      Jotem spritesheet_38: -6814843463789579102
-      Jotem spritesheet_39: 8550211024173128622
-      Jotem spritesheet_4: 59480490134294471
-      Jotem spritesheet_40: 2904082742022797286
-      Jotem spritesheet_41: 9194883134170413580
-      Jotem spritesheet_42: -5461489357346216535
-      Jotem spritesheet_43: 3647111719270369688
-      Jotem spritesheet_44: 6795976588203638623
-      Jotem spritesheet_45: 4611057108485333627
-      Jotem spritesheet_46: -3587700146820122264
-      Jotem spritesheet_47: -2851327989783407710
-      Jotem spritesheet_48: 4719426067503832946
-      Jotem spritesheet_49: -2130797370200671311
-      Jotem spritesheet_5: 2040085863738072070
-      Jotem spritesheet_50: 8387818073849933639
-      Jotem spritesheet_51: -1288935576143829278
-      Jotem spritesheet_52: 5425201707094256187
-      Jotem spritesheet_53: 8998435319074773505
-      Jotem spritesheet_54: 6904125705423470889
-      Jotem spritesheet_55: -4521412835190205584
-      Jotem spritesheet_56: 1283832887410860538
-      Jotem spritesheet_57: -8280071751041018407
-      Jotem spritesheet_58: 3007875465208984107
-      Jotem spritesheet_59: -2856986571018542692
-      Jotem spritesheet_6: -6433643599289463457
-      Jotem spritesheet_60: -61368221723119730
-      Jotem spritesheet_61: -2815184028406027904
-      Jotem spritesheet_62: 7151409273671258059
-      Jotem spritesheet_63: -4652646942860973154
-      Jotem spritesheet_64: -6632008382836053660
-      Jotem spritesheet_65: 1714818133447175933
-      Jotem spritesheet_66: 2883682115646634507
-      Jotem spritesheet_67: -1691292730481580855
-      Jotem spritesheet_68: -8564855289611918731
-      Jotem spritesheet_69: -6512090364218783171
-      Jotem spritesheet_7: 5777114154127496265
-      Jotem spritesheet_70: -1333713661922209389
-      Jotem spritesheet_71: -7614107235260041536
-      Jotem spritesheet_72: -614191360176692993
-      Jotem spritesheet_73: -7488067779248591796
-      Jotem spritesheet_74: -3140623067464016178
-      Jotem spritesheet_75: -87028336056379312
-      Jotem spritesheet_76: -2545046166652486696
-      Jotem spritesheet_77: 4473607106467973300
-      Jotem spritesheet_78: 3896665135692461661
-      Jotem spritesheet_79: -5407507109330613315
-      Jotem spritesheet_8: 1246564807498730588
-      Jotem spritesheet_80: 5159358897073273968
-      Jotem spritesheet_81: 7643764596020286783
-      Jotem spritesheet_82: -8380742974158731669
-      Jotem spritesheet_83: -8581068534521218467
-      Jotem spritesheet_84: 7399612558824589710
-      Jotem spritesheet_85: -4328006578578814115
-      Jotem spritesheet_86: 9221015887101732796
-      Jotem spritesheet_87: 3776921126509179901
-      Jotem spritesheet_88: 5276808805007880249
-      Jotem spritesheet_89: 7781555219644926531
-      Jotem spritesheet_9: -5074090553795638265
-      Jotem spritesheet_90: 9011470768651452234
+      Brothers_Graphics_0: 1105193851
+      Brothers_Graphics_1: 1813954494
+      Brothers_Graphics_10: 565714789
+      Brothers_Graphics_11: 331314951
+      Brothers_Graphics_12: -1381072657
+      Brothers_Graphics_13: -1039254695
+      Brothers_Graphics_14: -1983849616
+      Brothers_Graphics_15: 1946941144
+      Brothers_Graphics_16: 1686709208
+      Brothers_Graphics_17: -662996830
+      Brothers_Graphics_18: -671921229
+      Brothers_Graphics_19: -1166061722
+      Brothers_Graphics_2: 1983311322
+      Brothers_Graphics_20: 1284667667
+      Brothers_Graphics_21: -1566980206
+      Brothers_Graphics_22: 1639208808
+      Brothers_Graphics_23: -147719933
+      Brothers_Graphics_24: 1897685724
+      Brothers_Graphics_25: -2062084565
+      Brothers_Graphics_26: -538703059
+      Brothers_Graphics_27: -190645915
+      Brothers_Graphics_28: 1478033899
+      Brothers_Graphics_29: 379177503
+      Brothers_Graphics_3: -1345672514
+      Brothers_Graphics_30: -2019917344
+      Brothers_Graphics_31: -1290494437
+      Brothers_Graphics_32: 1821921717
+      Brothers_Graphics_33: 1894859646
+      Brothers_Graphics_34: 1772328153
+      Brothers_Graphics_35: 893706531
+      Brothers_Graphics_36: 1863541861
+      Brothers_Graphics_37: -1822065389
+      Brothers_Graphics_38: 1356470270
+      Brothers_Graphics_39: -1110394506
+      Brothers_Graphics_4: -882473210
+      Brothers_Graphics_40: -1279899340
+      Brothers_Graphics_41: 921565139
+      Brothers_Graphics_42: 71816358
+      Brothers_Graphics_43: 974637961
+      Brothers_Graphics_44: 796905627
+      Brothers_Graphics_45: 1187085791
+      Brothers_Graphics_46: 1230430479
+      Brothers_Graphics_47: 2016027090
+      Brothers_Graphics_48: 1737463295
+      Brothers_Graphics_49: -2144522680
+      Brothers_Graphics_5: -1714855525
+      Brothers_Graphics_50: 1681786894
+      Brothers_Graphics_51: -619585620
+      Brothers_Graphics_52: 468340147
+      Brothers_Graphics_53: 1555278984
+      Brothers_Graphics_54: -1929188675
+      Brothers_Graphics_55: 81656714
+      Brothers_Graphics_56: 1668086108
+      Brothers_Graphics_57: 1526904410
+      Brothers_Graphics_58: -1943171682
+      Brothers_Graphics_59: -218845562
+      Brothers_Graphics_6: -1721363437
+      Brothers_Graphics_60: 241930975
+      Brothers_Graphics_61: -1654516948
+      Brothers_Graphics_62: 1943302468
+      Brothers_Graphics_63: 1091899310
+      Brothers_Graphics_64: 2092583282
+      Brothers_Graphics_65: -1439342398
+      Brothers_Graphics_66: -333212996
+      Brothers_Graphics_67: -868487442
+      Brothers_Graphics_68: -814589650
+      Brothers_Graphics_69: -1178929099
+      Brothers_Graphics_7: -218278918
+      Brothers_Graphics_70: 499744011
+      Brothers_Graphics_71: 219368647
+      Brothers_Graphics_72: -257120064
+      Brothers_Graphics_73: -149331652
+      Brothers_Graphics_74: 2015757698
+      Brothers_Graphics_75: 1004932449
+      Brothers_Graphics_76: 1654338656
+      Brothers_Graphics_77: 1575962181
+      Brothers_Graphics_78: 1976042825
+      Brothers_Graphics_79: -1442185682
+      Brothers_Graphics_8: -1239022415
+      Brothers_Graphics_80: -1563617538
+      Brothers_Graphics_81: -52495348
+      Brothers_Graphics_82: -1969163654
+      Brothers_Graphics_83: 1575942294
+      Brothers_Graphics_84: -354357999
+      Brothers_Graphics_85: 1637247722
+      Brothers_Graphics_86: 625582708
+      Brothers_Graphics_87: 235064351
+      Brothers_Graphics_88: 886582873
+      Brothers_Graphics_89: -683915224
+      Brothers_Graphics_9: 103875411
+      Brothers_Graphics_90: 1276340080
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

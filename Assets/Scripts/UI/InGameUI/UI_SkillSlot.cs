@@ -14,7 +14,6 @@ public class UI_SkillSlot : MonoBehaviour , IPointerEnterHandler, IPointerExitHa
     private SkillDataSO skillData;
 
     public SkillType skillType;
-
     [SerializeField] private Image cooldownImage;
     [SerializeField] private string inputKeyName;
     [SerializeField] private TextMeshProUGUI inputKeyText;
@@ -37,16 +36,16 @@ public class UI_SkillSlot : MonoBehaviour , IPointerEnterHandler, IPointerExitHa
     {
         this.skillData = selectedSkill;
 
-        Color color = Color.black;
-        color.a = 0.6f;
+        Color color = Color.black; color.a = .6f;
         cooldownImage.color = color;
 
         inputKeyText.text = inputKeyName;
         skillIcon.sprite = selectedSkill.icon;
 
-        if(conflictSlot != null) 
+        if(conflictSlot != null)
             conflictSlot.SetActive(false);
     }
+
     public void StartCooldown(float cooldown)
     {
         cooldownImage.fillAmount = 1;
@@ -61,7 +60,7 @@ public class UI_SkillSlot : MonoBehaviour , IPointerEnterHandler, IPointerExitHa
 
         while (timePassed < duration)
         {
-            timePassed += Time.deltaTime;
+            timePassed = timePassed + Time.deltaTime;
             cooldownImage.fillAmount = 1f - (timePassed / duration);
             yield return null;
         }
@@ -76,10 +75,9 @@ public class UI_SkillSlot : MonoBehaviour , IPointerEnterHandler, IPointerExitHa
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        if(skillData == null)
+        if (skillData == null)
             return;
 
         ui.skillToolTip.ShowToolTip(true, rect, skillData, null);
     }
-
 }

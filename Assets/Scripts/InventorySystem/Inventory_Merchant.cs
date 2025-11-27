@@ -39,13 +39,12 @@ public class Inventory_Merchant : Inventory_Base
                 }
             }
 
-            inventory.gold -= itemToBuy.buyPrice;
+            inventory.gold = inventory.gold - itemToBuy.buyPrice;
             RemoveOneItem(itemToBuy);
         }
 
         TriggerUpdateUI();
     }
-
 
     public void TrySellItem(Inventory_Item itemToSell, bool sellFullStack)
     {
@@ -54,6 +53,7 @@ public class Inventory_Merchant : Inventory_Base
         for (int i = 0; i < amountToSell; i++)
         {
             int sellPrice = Mathf.FloorToInt(itemToSell.sellPrice);
+
             inventory.gold = inventory.gold + sellPrice;
             inventory.RemoveOneItem(itemToSell);
         }
@@ -61,17 +61,15 @@ public class Inventory_Merchant : Inventory_Base
         TriggerUpdateUI();
     }
 
-
     public void FillShopList()
     {
         itemList.Clear();
-
         List<Inventory_Item> possibleItems = new List<Inventory_Item>();
 
         foreach (var itemData in shopData.itemList)
         {
-            int randomStack = Random.Range(itemData.minStackSizeAtShop, itemData.maxStackSizeAtShop + 1);
-            int finalStack = Mathf.Clamp(randomStack, 1, itemData.maxStackSize);
+            int randmoziedStack = Random.Range(itemData.minStackSizeAtShop, itemData.maxStackSizeAtShop + 1);
+            int finalStack = Mathf.Clamp(randmoziedStack, 1, itemData.maxStackSize);
 
             Inventory_Item itemToAdd = new Inventory_Item(itemData);
             itemToAdd.stackSize = finalStack;
@@ -79,7 +77,7 @@ public class Inventory_Merchant : Inventory_Base
             possibleItems.Add(itemToAdd);
         }
 
-        int randomItemAmount = Random.Range(minItemsAmount, maxInventorySize + 1);
+        int randomItemAmount = Random.Range(minItemsAmount,maxInventorySize + 1);
         int finalAmount = Mathf.Clamp(randomItemAmount, 1, possibleItems.Count);
 
         for (int i = 0; i < finalAmount; i++)
@@ -95,8 +93,9 @@ public class Inventory_Merchant : Inventory_Base
         }
 
         TriggerUpdateUI();
-
     }
+
+
 
     public void SetInventory(Inventory_Player inventory) => this.inventory = inventory;
 }

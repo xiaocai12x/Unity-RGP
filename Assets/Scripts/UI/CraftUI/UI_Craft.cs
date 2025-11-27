@@ -5,11 +5,11 @@ public class UI_Craft : MonoBehaviour
     [SerializeField] private UI_ItemSlotParent inventoryParent;
     private Inventory_Player inventory;
 
-    private UI_CraftPreview craftPreviewUI;
+    private UI_CraftPreviw craftPreviwUI;
     private UI_CraftSlot[] craftSlots;
     private UI_CraftListButton[] craftListButtons;
 
-
+    
 
     public void SetupCraftUI(Inventory_Storage storage)
     {
@@ -17,20 +17,20 @@ public class UI_Craft : MonoBehaviour
         inventory.OnInventoryChange += UpdateUI;
         UpdateUI();
 
-        craftPreviewUI = GetComponentInChildren<UI_CraftPreview>();
-        craftPreviewUI.SetupCraftPreview(storage);
-        SetupCraftlistButtons();
+        craftPreviwUI = GetComponentInChildren<UI_CraftPreviw>(true);
+        craftPreviwUI.SetupCraftPreviw(storage);
+        SetupCraftListButtons();
     }
 
-    private void SetupCraftlistButtons()
+    private void SetupCraftListButtons()
     {
-        craftSlots = GetComponentsInChildren<UI_CraftSlot>();
-        craftListButtons = GetComponentsInChildren<UI_CraftListButton>();
+        craftSlots = GetComponentsInChildren<UI_CraftSlot>(true);
+        craftListButtons = GetComponentsInChildren<UI_CraftListButton>(true);
 
-        foreach (var slot in craftSlots)
+        foreach(var slot in craftSlots)
             slot.gameObject.SetActive(false);
 
-        foreach (var button in craftListButtons)
+        foreach(var button in craftListButtons)
             button.SetCraftSlots(craftSlots);
     }
 

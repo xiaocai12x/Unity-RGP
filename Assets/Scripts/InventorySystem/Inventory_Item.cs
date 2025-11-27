@@ -14,8 +14,8 @@ public class Inventory_Item
     public ItemEffect_DataSO itemEffect;
 
     public int buyPrice { get; private set; }
-
     public float sellPrice { get; private set; }
+
 
     public Inventory_Item(ItemDataSO itemData)
     {
@@ -63,9 +63,8 @@ public class Inventory_Item
 
     public string GetItemInfo()
     {
-
         StringBuilder sb = new StringBuilder();
-
+        
         if (itemData.itemType == ItemType.Material)
         {
             sb.AppendLine("");
@@ -75,14 +74,17 @@ public class Inventory_Item
             return sb.ToString();
         }
 
+
         if (itemData.itemType == ItemType.Consumable)
         {
+
             sb.AppendLine("");
             sb.AppendLine(itemEffect.effectDescription);
             sb.AppendLine("");
             sb.AppendLine("");
             return sb.ToString();
         }
+
 
         sb.AppendLine("");
 
@@ -154,5 +156,4 @@ public class Inventory_Item
                 return false;
         }
     }
-
 }
